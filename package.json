@@ -1,0 +1,21 @@
+{
+  "name": "gpt-resume-agents-vercel",
+  "version": "2.0.0",
+  "description": "Intelligent multi-agent resume search system",
+  "type": "module",
+  "dependencies": {
+    "@types/pg": "^8.15.2",
+    "dotenv": "^16.5.0",
+    "next": "^15.3.2",
+    "openai": "^4.98.0",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.16.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
